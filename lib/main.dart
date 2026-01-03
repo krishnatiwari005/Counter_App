@@ -1,5 +1,5 @@
 import 'package:counter/providers/jap_provider.dart';
-import 'package:counter/screens/jap_screen.dart';
+import 'package:counter/screens/home_wrapper.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
      debugShowCheckedModeBanner: false,
-      home: const JapScreen(),
+      home: const HomeWrapper(),
     );
   }
 }
