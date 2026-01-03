@@ -15,23 +15,45 @@ class _JapScreenState extends State<JapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+
       appBar: AppBar(
         title: const Text('Naam Jap'),
         centerTitle: true,
       ),
+
+
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           
-          children: [
-          MalaProgress(count: count),
-           AnimatedCounter(
-            count: count,
-            fontSize: 48,
-            color: Colors.brown,
-            ),
 
-            const SizedBox(height: 30),
+
+
+          children: [
+
+
+
+             MalaProgress(count: count),
+
+
+
+             AnimatedCounter(
+             count: count,
+              fontSize: 40,
+              color: const Color.fromARGB(255, 153, 81, 55),
+              ),
+
+
+
+
+
+
+            const SizedBox(height: 15),
+
+
+
+
 
             GestureDetector(
               onTap: () {
@@ -61,8 +83,13 @@ class _JapScreenState extends State<JapScreen> {
                 ),
               ),
             ),
+            
+
 
             const SizedBox(height: 20),
+
+
+
 
             TextButton(
               onPressed: () {
@@ -72,6 +99,11 @@ class _JapScreenState extends State<JapScreen> {
               },
               child: const Text('Reset'),
             ),
+
+
+
+
+
           ],
         ),
       ),

@@ -1,6 +1,5 @@
 import 'package:counter/providers/jap_provider.dart';
 import 'package:counter/screens/home_wrapper.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -16,7 +15,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+ 
 
   @override
   Widget build(BuildContext context) {

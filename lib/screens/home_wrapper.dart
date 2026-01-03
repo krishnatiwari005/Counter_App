@@ -31,7 +31,7 @@ class _HomeWrapperState extends State<HomeWrapper> {
         onTap: (i) => setState(() =>_index =i),
         selectedItemColor: Colors.brown,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.fingerprint),label: 'jap'),
+          BottomNavigationBarItem(icon: Icon(Icons.fingerprint_outlined),label: 'Jap'),
            BottomNavigationBarItem(icon: Icon(Icons.bar_chart),label: 'Stats'),
             BottomNavigationBarItem(icon: Icon(Icons.history),label: 'History'),
         ],
